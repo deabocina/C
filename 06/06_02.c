@@ -1,7 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-/* Function to calculate the sum and product of digits of a natural number. */
+// Function to calculate the sum and product of digits of a natural number.
 
 void calculateSumAndProduct(int number, int* sum, int* product) {
     while (number > 0) {
