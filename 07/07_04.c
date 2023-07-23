@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 
-/*Write a function that returns the position and address of the second occurrence of a letter in a given string.
+/* Write a function that returns the position and address of the second occurrence of a letter in a given string.
 If the letter does not occur twice, the function returns -1 and NULL.
-Example: For the string "ONoffON", the position of the second occurrence of the letter 'O' is 6.*/
+Example: For the string "ONoffON", the position of the second occurrence of the letter 'O' is 6. */
 
 int findSecondOccurrence(char str[], char ch) {
     int i, count = 0;
